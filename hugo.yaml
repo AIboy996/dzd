@@ -1,0 +1,33 @@
+baseURL: https://dzd.yangz.site/
+languageCode: zh-cn
+title: 典中典
+theme: ["PaperMod"]
+params:
+  math: true
+  homeInfoParams:
+    Title: Hi there
+    Content: 本站收集一些高中数学的典中典（dzd的含义）例题
+  socialIcons: # optional
+    - name: "github"
+      url: "<link>"
+    - name: "download"
+      url: "<link2>"
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+menu:
+  main:
+    - identifier: categories
+      name: 搜索
+      url: /search/
+      weight: 10
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 20
+    - identifier: archive
+      url: /archives/
+      name: 归档
