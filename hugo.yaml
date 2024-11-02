@@ -1,4 +1,4 @@
-baseURL: https://dzd.yangz.site/
+baseURL: https://aiboy996.github.io/dzd/
 languageCode: zh-cn
 title: 典中典
 theme: ["PaperMod"]
@@ -34,7 +34,3 @@ menu:
     - identifier: archive
       url: /archives/
       name: 归档
-modules:
-  mounts:
-    - source: 'images'
-    - target: 'static/images'
