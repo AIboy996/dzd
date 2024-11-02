@@ -3,15 +3,18 @@ languageCode: zh-cn
 title: 典中典
 theme: ["PaperMod"]
 params:
+  comments: true
   math: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
   homeInfoParams:
-    Title: Hi there
+    Title: "Hi there \U0001F44B"
     Content: 本站收集一些高中数学的典中典（dzd的含义）例题
   socialIcons: # optional
     - name: "github"
-      url: "<link>"
-    - name: "download"
-      url: "<link2>"
+      url: "https://github.com/AIboy996/dzd"
+    - name: "email"
+      url: "mailto:mail.yangzhang.site"
 outputs:
   home:
     - HTML
@@ -31,3 +34,7 @@ menu:
     - identifier: archive
       url: /archives/
       name: 归档
+modules:
+  mounts:
+    - source: 'images'
+    - target: 'static/images'
