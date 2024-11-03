@@ -35,6 +35,9 @@ menu:
     - identifier: archive
       url: /archives/
       name: 归档
+    - identifier: about
+      url: /about/
+      name: 关于
 
 # markup:
 #   goldmark:
