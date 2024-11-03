@@ -3,6 +3,7 @@ languageCode: zh-cn
 title: 典中典
 theme: ["PaperMod"]
 params:
+  defaultTheme: auto
   comments: true
   math: true
   ShowCodeCopyButtons: true
@@ -34,3 +35,8 @@ menu:
     - identifier: archive
       url: /archives/
       name: 归档
+
+# markup:
+#   goldmark:
+#     renderer:
+#       unsafe: true
