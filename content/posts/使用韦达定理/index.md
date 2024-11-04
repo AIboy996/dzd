@@ -49,7 +49,7 @@ f(t) = t^3-5t^2+3t=\theta
 $$
 的三个根：
 
-![](assets/2024-11-02-15-02-35.png)
+<iframe src="https://www.desmos.com/calculator/juyycd3roy?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 如图所示，绿色是$f(t)$的图像，黑色是$z$取最大值时$\theta$的位置，紫色时最小值时$\theta$的位置。
 
@@ -146,7 +146,9 @@ $$
 x^2+y^2+(5-x-y)^2=19
 $$
 这是一个椭圆：
-![](assets/2024-11-02-14-52-00.png)
+
+
+<iframe src="https://www.desmos.com/calculator/gvj7jviosh?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 我们要的是
 $$

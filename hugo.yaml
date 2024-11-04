@@ -39,7 +39,7 @@ menu:
       url: /about/
       name: 关于
 
-# markup:
-#   goldmark:
-#     renderer:
-#       unsafe: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

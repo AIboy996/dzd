@@ -134,9 +134,9 @@ $$
 
 ### 几何法（准线！）
 
-![](assets/2024-11-04-00-16-40.png)
+<iframe src="https://www.desmos.com/calculator/2iim7hbmnz?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-如图所示，分别作$AE、BG$垂直于准线$x=-1$。然后反向延长$BG$，再作$AD\perp BG$交x轴于$D$。
+如图所示，分别作$AE、BG$垂直于准线$x=-1$。然后反向延长$BG$，再作$AD\perp BG$交$x$轴于点$C$。
 
 假设$|AF|=a$,$|BF|=b$那么根据抛物线的性质我们知道
 $$
