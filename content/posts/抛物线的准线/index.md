@@ -12,6 +12,8 @@ y^2 = 4x
 $$
 过焦点$F$的直线$l$交$\Gamma$于$A,B$两点，满足$|AF|=2|BF|$
 
+<!--more-->
+
 1. 求$l$的斜率
 {{< collapse summary="key">}}
 $$
