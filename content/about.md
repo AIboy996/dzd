@@ -31,3 +31,5 @@ hugo mod clean && hugo server --buildDrafts
 ## 待办
 
 - 本站预计会有大量的数学绘图，未来可能会采取Geogebra/Desmos嵌入的方式来呈现一个可交互的绘图场景，而不是单纯的截图。
+
+<iframe src="https://www.desmos.com/calculator/k2ain08ugr?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
