@@ -22,7 +22,7 @@ $$
 
 <iframe src="https://www.desmos.com/calculator/pr6h5w80uc?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-### 韦达定理
+### 韦达定理 法一
 设直线$l$的方程为：
 $$
 x=my+c
@@ -72,17 +72,72 @@ $$
 \lambda = -\frac{(a-c)^2}{b^2}
 $$
 
+
+### 韦达定理 法二
+所求的$\lambda$：
+$$
+-\lambda = \frac{k_{PA}}{k_{QB}} = \frac{y_1(x_2-a)}{y_2(x_1+a)}
+$$
+
+我们可以直接带入$x=my+c$得到：
+$$
+-\lambda= \frac{my_1y_2+(c-a)y_1}{my_2y_1+(c+a)y_2}
+$$
+利用$y_1y_2$和$y_1+y_2$之间的关系：
+$$
+\begin{aligned}
+&y_1y_2 = \frac{\frac{c^2}{a^2}-1}{\frac{m^2}{a^2}+\frac{1}{b^2}}\\\\
+&y_1+y_2 = \frac{-\frac{2mc}{a^2}}{\frac{m^2}{a^2}+\frac{1}{b^2}}
+\end{aligned}
+$$
+我们知道：
+$$
+my_1y_2 = -\frac{a^2}{2c}(\frac{c^2}{a^2}-1)(y_1+y_2)
+$$
+
+> 这就完成了**降次**
+
+于是：
+$$
+-\lambda= \frac{-\frac{a^2}{2c}(\frac{c^2}{a^2}-1)(y_1+y_2)+(c-a)y_1}{-\frac{a^2}{2c}(\frac{c^2}{a^2}-1)(y_1+y_2)+(c+a)y_2}
+$$
+消去分母：
+$$
+-\lambda= \frac{-(c^2-a^2)(y_1+y_2)+2c(c-a)y_1}{-(c^2-a^2)(y_1+y_2)+2c(c+a)y_2}
+$$
+整理一下：
+$$
+-\lambda= \frac{(a^2+c^2-2ac)y_1+(a^2-c^2)y_2}{(a^2-c^2)y_1+(a^2+c^2+2ac)y_2}
+$$
+提出因子：
+$$
+-\lambda=\frac{a-c}{a+c} \cdot \frac{(a-c)y_1+(a+c)y_2}{(a-c)y_1+(a+c)y_2}
+$$
+所以：
+$$
+-\lambda=\frac{a-c}{a+c} 
+$$
+证毕。
+
 ### 椭圆第三定义
 实际上我们知道：
 $$
 k_{PA}k_{PB} = -\frac{b^2}{a^2}
 $$
+> 实际上这就是我们之前对椭圆方程做的变形：
+> $$
+> \begin{aligned}
+> &\frac{x^2}{a^2}+\frac{y^2}{b^2}=1\\\\
+> \implies &\frac{y}{a+x}=\frac{b^2}{a^2}\frac{a-x}{y}\\\\
+> \implies &\frac{y}{x+a}\cdot \frac{y}{x-a}=-\frac{b^2}{a^2}
+> \end{aligned}
+> $$
 为定值，且：
 $$
 k_{PB}k_{QB} = -\frac{b^4}{a^2(a-c)^2}
 $$
 也是定值。
-> 这两个定值都很好证明
+> 这个定值通过韦达定理不难证明
 
 从这两个式子出发，显然有：
 $$
