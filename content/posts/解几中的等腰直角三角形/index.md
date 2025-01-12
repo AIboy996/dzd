@@ -12,8 +12,14 @@ tags = ["几何"]
 $$
 \frac{x^2}{4}+y^2=1\quad (y\ge 0)
 $$
-上有两个动点$P,Q$，点$T$的坐标是$(t,0)$。当$\triangle PQT$是以$T$为直角顶点的等腰直角三角形时，求实数$t$的取值范围。
+上有两个动点$P,Q$，点$T$的坐标是$(t,0)$。
+
+当$\triangle PQT$是以$T$为直角顶点的等腰直角三角形时，求实数$t$的取值范围。
 <!--more-->
+
+## 分析
+
+题目的关键在于如何利用等腰直角三角形的条件构建出变量之间的关系。
 
 ## 题解
 
@@ -71,9 +77,9 @@ $$
 25(p-q)^2=16-20pq \le 16
 $$
 
-> p,q都是非负的，所以$pq\ge 0$，从而上式显然。
+> $p,q$都是非负的，所以$pq\ge 0$，从而上式显然。
 > 
-> 实际上我们知道$25p^2+25q^2-30pq=16$，蕴含着$(p,q)$落在一个关于$y=x,x=0,y=0$都对称的椭圆上：
+> 实际上我们知道$25p^2+25q^2-30pq=16$，蕴含着$(p,q)$落在一个关于$y=x,y=-x$都对称的椭圆上：
 > <iframe src="https://www.desmos.com/calculator/n0nsw0awgz?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 
@@ -199,7 +205,10 @@ $$
 
 另外：
 $$
-\color{blue} 2t = 3r(\cos a-\sin a) = 3r\sqrt{2}\sin(\frac{\pi}{4}-a)\in [-3r,3r]
+\begin{aligned}
+2t &= 3r(\cos a-\sin a)\\\\
+&= 3r\sqrt{2}\sin(\frac{\pi}{4}-a)\in [-3r,3r]
+\end{aligned}
 $$
 所以：
 $$
